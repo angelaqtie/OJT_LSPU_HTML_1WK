@@ -888,16 +888,15 @@ input::placeholder {
 }
 
 /* TABLET RESPONSIVE FOR DESIGN PACKAGE */
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 768px) {
   .contact {
     padding: 5rem 0;
   }
   .contact__wrapper {
-    display: flex;
     flex-direction: column;
-  }
-  .contact__info{
-    width: 50%;
+    justify-items: center;
+    gap: 5rem;
+    
   }
 }
 
